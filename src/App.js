@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import CoinFlipper from "./CoinFlipper";
 
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+    return <CoinFlipper />;
 }
 
 export default App;
